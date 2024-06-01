@@ -1,0 +1,11 @@
+[package]
+name = "url-shortener"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rocket = { version = "0.5.0-rc.4", features = ["json"] }
+shuttle-service = { version = "0.2", features = ["sqlx-postgres", "web-rocket"] }
