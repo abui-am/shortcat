@@ -1,7 +1,7 @@
 use rocket::{get, http::Status, post, response::Redirect, routes, State};
 use shuttle_rocket::ShuttleRocket;
 use sqlx::{Error, PgPool};
-use url::{ParseError, Url};
+use url::Url;
 
 #[get("/")]
 fn index() -> &'static str {
