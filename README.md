@@ -15,6 +15,7 @@ To get started with Shortcat, ensure you have the following installed on your sy
 
 - Rust (latest stable version)
 - Cargo (Rust's package manager)
+- Shuttle (for deployment)
 
 ### Installation
 
